@@ -1,8 +1,7 @@
 # Nien luan 2 Demo
-Project Managements: Reactjs, Nodejs, 
+Project Managements: Reactjs, Nodejs, MongoDB
 
-MongoDB Features : 
-
+Features : 
 1: Project-Management 
 
 2: Mission-Management 
