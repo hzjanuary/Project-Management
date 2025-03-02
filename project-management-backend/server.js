@@ -17,7 +17,7 @@ const connectDB = async () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-    console.log("✅ MongoDB Connected!");
+    console.log("MongoDB Connected!");
   } catch (error) {
     console.error("❌ MongoDB Connection Error:", error.message);
     process.exit(1);
@@ -33,4 +33,4 @@ app.get("/", (req, res) => {
 
 // Chạy server
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
